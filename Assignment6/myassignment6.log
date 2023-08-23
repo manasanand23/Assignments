@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.8.14)  23 AUG 2023 09:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.8.14)  23 AUG 2023 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -977,13 +977,16 @@ ex
 2022/09/23 4.25c tkz-obj-eu-show.tex
 ) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
 2022/09/23 4.25c tkz-obj-eu-triangles.tex
-))
-\c@theorem=\count327
-\c@problem=\count328
-\c@proposition=\count329
-\c@lemma=\count330
-\c@example=\count331
-\c@rem=\count332
+)) (./gvv.sty
+\c@matchleft=\count327
+\c@matchright=\count328
+)
+\c@theorem=\count329
+\c@problem=\count330
+\c@proposition=\count331
+\c@lemma=\count332
+\c@example=\count333
+\c@rem=\count334
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
 4.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
@@ -1037,16 +1040,16 @@ LaTeX Font Info:    ... okay on input line 94.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count333
+\scratchcounter=\count335
 \scratchdimen=\dimen301
 \scratchbox=\box74
-\nofMPsegments=\count334
-\nofMParguments=\count335
+\nofMPsegments=\count336
+\nofMParguments=\count337
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count336
+\MPscratchCnt=\count338
 \MPscratchDim=\dimen302
-\MPnumerator=\count337
-\makeMPintoPDFobject=\count338
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
 \everyMPtoPDFconversion=\toks44
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1057,7 +1060,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count339
+\c@lstlisting=\count341
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 (Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 94.
@@ -1121,12 +1124,12 @@ Package rerunfilecheck Info: File `myassignment6.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29095 strings out of 476091
- 573512 string characters out of 5794081
+ 29181 strings out of 476091
+ 574427 string characters out of 5794081
  1866330 words of memory out of 5000000
- 48831 multiletter control sequences out of 15000+600000
+ 48911 multiletter control sequences out of 15000+600000
  543934 words of font info for 113 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 1144 hyphenation exceptions out of 8191
  101i,8n,96p,1181b,705s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
@@ -1135,7 +1138,7 @@ t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 onts/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on myassignment6.pdf (3 pages, 174527 bytes).
+Output written on myassignment6.pdf (3 pages, 173829 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
