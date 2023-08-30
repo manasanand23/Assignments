@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.8.14)  29 AUG 2023 11:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.8.14)  30 AUG 2023 09:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**myassignmemt11.tex
+**myassignment11.tex
 (./myassignment11.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16>
@@ -1108,9 +1108,9 @@ File: ts1txr.fd 2000/12/15 v3.1
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 101.
 
-Overfull \hbox (10.17003pt too wide) in paragraph at lines 112--113
+Overfull \hbox (12.67003pt too wide) in paragraph at lines 112--113
 []\OT1/txr/m/n/10 Find per-pen-dic-u-lar dis-tance from the ori-gin to the line
- join-ing the points $([] \OML/txmi/m/it/10 ^^R [] ^^R\OT1/txr/m/n/10 )$
+ join-ing the points $([] \OML/txmi/m/it/10 ^^R; [] ^^R\OT1/txr/m/n/10 )$
  []
 
 [1
@@ -1121,8 +1121,8 @@ Package rerunfilecheck Info: File `myassignment11.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29090 strings out of 476091
- 573385 string characters out of 5794081
+ 29089 strings out of 476091
+ 573371 string characters out of 5794081
  1868330 words of memory out of 5000000
  48823 multiletter control sequences out of 15000+600000
  545628 words of font info for 116 fonts, out of 8000000 for 9000
@@ -1134,7 +1134,7 @@ t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on myassignment11.pdf (2 pages, 49365 bytes).
+Output written on myassignment11.pdf (2 pages, 48652 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream
