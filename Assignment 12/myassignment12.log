@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.8.14)  29 AUG 2023 12:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.8.14)  30 AUG 2023 11:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1108,24 +1108,8 @@ File: ts1txr.fd 2000/12/15 v3.1
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14.4> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 99.
 
-Overfull \hbox (237.03235pt too wide) in paragraph at lines 103--105
-[]\OT1/txr/m/n/10 Name the oc-tants in which the fol-low-ing points lie: $(1\OM
-L/txmi/m/it/10 ; \OT1/txr/m/n/10 2\OML/txmi/m/it/10 ; \OT1/txr/m/n/10 3)\OML/tx
-mi/m/it/10 ; \OT1/txr/m/n/10 (4\OML/txmi/m/it/10 ; \OMS/txsy/m/n/10 ^^@\OT1/txr
-/m/n/10 2\OML/txmi/m/it/10 ; \OT1/txr/m/n/10 3)\OML/txmi/m/it/10 ; \OT1/txr/m/n
-/10 (4\OML/txmi/m/it/10 ; \OMS/txsy/m/n/10 ^^@\OT1/txr/m/n/10 2\OML/txmi/m/it/1
-0 ; \OMS/txsy/m/n/10 ^^@\OT1/txr/m/n/10 5)\OML/txmi/m/it/10 ; \OT1/txr/m/n/10 (
-4\OML/txmi/m/it/10 ; \OT1/txr/m/n/10 2\OML/txmi/m/it/10 ; \OMS/txsy/m/n/10 ^^@\
-OT1/txr/m/n/10 5)\OML/txmi/m/it/10 ; \OT1/txr/m/n/10 (\OMS/txsy/m/n/10 ^^@\OT1/
-txr/m/n/10 4\OML/txmi/m/it/10 ; \OT1/txr/m/n/10 2\OML/txmi/m/it/10 ; \OMS/txsy/
-m/n/10 ^^@\OT1/txr/m/n/10 5)\OML/txmi/m/it/10 ; \OT1/txr/m/n/10 (\OMS/txsy/m/n/
-10 ^^@\OT1/txr/m/n/10 4\OML/txmi/m/it/10 ; \OT1/txr/m/n/10 2\OML/txmi/m/it/10 ;
- \OMS/txsy/m/n/10 ^^@\OT1/txr/m/n/10 5)\OML/txmi/m/it/10 ; \OT1/txr/m/n/10 (\OM
-S/txsy/m/n/10 ^^@\OT1/txr/m/n/10 3\OML/txmi/m/it/10 ; \OMS/txsy/m/n/10 ^^@\OT1/
-txr/m/n/10 1\OML/txmi/m/it/10 ; \OT1/txr/m/n/10 6)\OML/txmi/m/it/10 ; \OT1/txr/
-m/n/10 (\OMS/txsy/m/n/10 ^^@\OT1/txr/m/n/10 2\OML/txmi/m/it/10 ; \OMS/txsy/m/n/
-10 ^^@\OT1/txr/m/n/10 4\OML/txmi/m/it/10 ; \OMS/txsy/m/n/10 ^^@\OT1/txr/m/n/10 
-7)$. 
+Overfull \hbox (31.79227pt too wide) detected at line 106
+[]
  []
 
 [1
@@ -1135,22 +1119,22 @@ Package rerunfilecheck Info: File `myassignment12.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29064 strings out of 476091
- 573226 string characters out of 5794081
- 1857330 words of memory out of 5000000
+ 29065 strings out of 476091
+ 573238 string characters out of 5794081
+ 1858330 words of memory out of 5000000
  48824 multiletter control sequences out of 15000+600000
  542618 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,6n,96p,1182b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,8n,96p,1182b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on myassignment12.pdf (1 page, 35565 bytes).
+Output written on myassignment12.pdf (1 page, 35600 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
+ 53 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
