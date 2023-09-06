@@ -1,0 +1,146 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass{article}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} % loads  TikZ and tkz-base
+\usepackage{listings}
+\usepackage{gvv}
+%
+%\usepackage{setspace}
+%\usepackage{gensymb}
+%\doublespacing
+%\singlespacing
+
+%\usepackage{graphicx}
+%\usepackage{amssymb}
+%\usepackage{relsize}
+%\usepackage[cmex10]{amsmath}
+%\usepackage{amsthm}
+%\interdisplaylinepenalty=2500
+%\savesymbol{iint}
+%\usepackage{txfonts}
+%\restoresymbol{TXF}{iint}
+%\usepackage{wasysym}
+%\usepackage{amsthm}
+%\usepackage{iithtlc}
+%\usepackage{mathrsfs}
+%\usepackage{txfonts}
+%\usepackage{stfloats}
+%\usepackage{bm}
+%\usepackage{cite}
+%\usepackage{cases}
+%\usepackage{subfig}
+%\usepackage{xtab}
+%\usepackage{longtable}
+%\usepackage{multirow}
+%\usepackage{algorithm}
+%\usepackage{algpseudocode}
+%\usepackage{enumitem}
+%\usepackage{mathtools}
+%\usepackage{tikz}
+%\usepackage{circuitikz}
+%\usepackage{verbatim}
+%\usepackage{tfrupee}
+%\usepackage{stmaryrd}
+%\usetkzobj{all}
+%    \usepackage{color}                                            %%
+%    \usepackage{array}                                            %%
+%    \usepackage{longtable}                                        %%
+%    \usepackage{calc}                                             %%
+%    \usepackage{multirow}                                         %%
+%    \usepackage{hhline}                                           %%
+%    \usepackage{ifthen}                                           %%
+  %optionally (for landscape tables embedded in another document): %%
+%    \usepackage{lscape}     
+%\usepackage{multicol}
+%\usepackage{chngcntr}
+%\usepackage{enumerate}
+
+%\usepackage{wasysym}
+%\documentclass[conference]{IEEEtran}
+%\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+%\newtheorem{thm}{Theorem}[section] 
+%\newtheorem{defn}[thm]{Definition}
+%\newtheorem{algorithm}{Algorithm}[section]
+%\newtheorem{cor}{Corollary}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+%\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+%\bibliographystyle{ieeetr}
+
+\begin{document}
+\title{LATEX ASSIGNMENT}
+\author{ANAND}
+\date{2-09-2023}
+\maketitle                                                                       >
+\section*{EXERCISE 12.4.2}
+Using the property of determnants and without expanding in \ref{prob:1} to \ref{prob:7}, prove that
+\begin{enumerate}
+\item $\begin{vmatrix} x&a&x+a\\ y&b&y+b\\ z&c&z+c \end{vmatrix}=0$\label{prob:1}
+\item $\begin{vmatrix} a-b&b-c&c-a\\ b-c&c-a&a-b\\ c-a&a-b&b-c \end{vmatrix}=0$
+\item $\begin{vmatrix} 2&7&65\\ 3&8&75\\ 5&9&86 \end{vmatrix}=0$
+\item $\begin{vmatrix} 1&bc&a(b+c)\\ 1&ca&b(c+a)\\ 1&ab&c(a+b) \end{vmatrix}=0$
+\item $\begin{vmatrix} b+c&q+r&y+z\\ c+a&r-p&z-x\\ a+b&p+q&x+y \end{vmatrix}=2$ $\begin{vmatrix} a&p&x\\ b&q&y\\ c&r&z \end{vmatrix}$
+\item $\begin{vmatrix} 0&a&-b\\ -a&0&-c\\ b&c&0 \end{vmatrix}=0$
+\item $\begin{vmatrix} -a^2&ab&ac\\ ba&-b^2&bc\\ ca&cb&-c^2 \end{vmatrix} = -4a^2b^2c^2$ \label{prob:7}
+\end{enumerate}
+By using properties of determinants, in \ref{prob:8} to \ref{prob:14}, show that:
+\begin{enumerate}[resume]
+\item \label{prob:8}
+\begin{enumerate}[label=(\roman*)]
+\item $\begin{vmatrix} 1&a&a^2\\ 1&b&b^2\\ 1&c&c^2 \end{vmatrix} = (a-b) (b-c) (c-a)$
+\item $\begin{vmatrix} 1&1&1\\ a&b&c\\ a^3&b^3&c^3 \end{vmatrix} = (a-b) (b-c) (c-a) (a+b+c)$
+\end{enumerate}
+\item $\begin{vmatrix} x&x^2&yz\\  y&y^2&zx\\ z&z^2&xy \end{vmatrix} = (x-y) (y-z) (z-x) (xy+yz+zx)$
+\item
+\begin{enumerate}[label=(\roman*)]
+\item $\begin{vmatrix} x+4&2x&2x\\ 2x&x+4&2x\\ 2x&2x&x+4 \end{vmatrix} = (5x+4)(4-x)^2$
+\item $\begin{vmatrix} y+k&y&y\\ y&y+k&y\\ y&y&y+k \end{vmatrix}=k^2(3y+k)$
+\end{enumerate}
+\item
+\begin{enumerate}[label=(\roman*)]
+\item $\begin{vmatrix} a-b-c&2&2a\\ 2b&b-c-a&2b\\ 2c&2c&c-a-b \end{vmatrix} = (a+b+c)^3$  
+\item $\begin{vmatrix} x+y+2z&x&y\\ z&y+z+2x&y\\ z&x&z+x+2y \end{vmatrix}= 2(x+y+z)^3$
+\end{enumerate}
+\item $\begin{vmatrix} 1&x&x^2\\ x^2&1&x\\ x&x^2&1 \end{vmatrix} = (1-x^3)^2$
+\item $\begin{vmatrix} 1+a^2-b^2&2ab&-2b\\ 2ab&1-a^2+b^2&2a\\ 2b&-2a&1-a^2-b^2 \end{vmatrix} = (1+a^2+b^2)^3$
+\item $\begin{vmatrix} a^2+1&ab&ac\\ ab&b^2+1&bc\\ ca&cb&c^2+1 \end{vmatrix} = 1+a^2+b^2+c^2$\label{prob:14}
+\item Let $A$ be a square matrix of order $3 \times 3$, then $\abs{kA}$ is equal to 
+\begin{enumerate}[label=(\roman*)]
+\item $k \abs{A}$
+\item $k^2 \abs{A}$
+\item $k^3 \abs{A}$
+\item $k \abs{A}$
+\end{enumerate}
+\item Which of the following is correct 
+\begin{enumerate}
+\item Determinant is a square matrix
+\item Determinant is a number associated to a matrix
+\item Determinant is a number associated to a square matrix
+\item None of these
+\end{enumerate}
+\end{enumerate}
+\end{document}
